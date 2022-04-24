@@ -1,7 +1,6 @@
 package tictactoe;
 
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -13,7 +12,6 @@ public class Main {
         printFields(chars);
         String userCoordinates;
         char[] coordinatesInChars = new char[2];
-
         boolean notFinished = false;
         while (!notFinished) {
             boolean isTwoElements = false;
